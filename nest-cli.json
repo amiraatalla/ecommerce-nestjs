@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@nestjs/swagger/plugin",
+        "options": {
+          "dtoFileNameSuffix": [".dto.ts", ".entity.ts", ".class.ts", ".enum.ts"],
+          "classValidatorShim": false,
+          "introspectComments": true
+        }
+      }
+    ]
+  },
+  "projects": {
+    "mail": {
+      "type": "library",
+      "root": "libs/mail",
+      "entryFile": "index",
+      "sourceRoot": "libs/mail/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mail/tsconfig.lib.json"
+      }
+    },
+    "state-machine": {
+      "type": "library",
+      "root": "libs/state-machine",
+      "entryFile": "index",
+      "sourceRoot": "libs/state-machine/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/state-machine/tsconfig.lib.json"
+      }
+    }
+  }
+}
+
+

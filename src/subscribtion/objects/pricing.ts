@@ -1,0 +1,38 @@
+export const pricing = {
+  CASHIER: {
+    quarterly: 300,
+    annually: 1200,
+    quarterly_vat: 342,
+    annually_vat: 1368,
+    discount_by_percent: 5.12,
+    discount_value: 70,
+    annually_vat_discount: 1298,
+  },
+  PRO_CASHIER: {
+    quarterly: 520.1754386,
+    annually: 2080.701754,
+    quarterly_vat: 593,
+    annually_vat: 2372,
+    discount_by_percent: 5.90,
+    discount_value: 140,
+    annually_vat_discount: 2232,
+  },
+  PREMIUM_CASHIER: {
+    quarterly: 620.1754386,
+    annually: 2480.701754,
+    quarterly_vat: 707,
+    annually_vat: 2828,
+    discount_by_percent: 7.07,
+    discount_value: 200,
+    annually_vat_discount: 2628,
+  },
+  EXTRA_USER: {
+    quarterly: 80,
+    annually: 320,
+    quarterly_vat: 112,
+    annually_vat: 448,
+    discount_by_percent: 4.5,
+    discount_value: 20,
+    annually_vat_discount: 428,
+  },
+};

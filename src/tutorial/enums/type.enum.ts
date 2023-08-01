@@ -1,0 +1,9 @@
+export enum TypeEnum{
+    CUSTOMER = 'CUSTOMER',
+    RESTURANT='RESTURANT',
+    MERCHANT='MERCHANT',
+    CASHIER = 'CASHIER',
+    INVENTORYMAN = 'INVENTORYMAN',
+    CHEF= 'CHEF',
+    WAITER= 'WAITER',
+}
